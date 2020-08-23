@@ -318,7 +318,7 @@ export default class AttachesTool {
         contentEditable: true
       });
 
-      this.nodes.title.textContent = title;
+      this.nodes.title.innerHTML = title;
       fileInfo.appendChild(this.nodes.title);
     }
 
